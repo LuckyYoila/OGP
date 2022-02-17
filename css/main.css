@@ -1,0 +1,367 @@
+
+:root {
+    --primary-color: #031a0f;
+    --secondary-color: #0f722d;
+    --color-white: white;
+    --secondary-font:  Arial, Helvetica, sans-serif;
+    --primary-font: 'poppins', sans-serif;
+}
+body{
+    margin: 0;
+    font-family: var(--secondary-font) ;
+    background: url(/images/dark-green-back.jpg);
+    /* background: url(/images/riyom\ rocks_4x.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+ul li {
+    margin: 1em ;
+    color: rgb(0, 0, 0);
+    font-family: var(--primary-font);
+}
+
+/* .page-wrapper {
+    background-color: rgba(3, 17, 3, 0.692);
+} */
+
+header {
+    /* background-color: var(--primary-color) ; */
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--color-white);
+    margin: 0.5em 0 0 1em;
+}
+
+.nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background: var(--primary-color);
+    border-left: 2px var(--primary-color) solid;
+    width: 40%;
+    z-index: 999;
+    text-transform: uppercase;
+    transform: translateX(100%);
+    transition: transform .5s ease-in-out;
+
+}
+
+nav ul {
+    margin-top: 0%;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 8em;
+    
+}
+
+a {
+    color: var(--color-white);
+    padding: .75em ;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    /* background-color: var(--secondary-color); */
+    color: var(--color-white);
+}
+
+.menu {
+    color: var(--color-white);
+    width: 2.5em;
+    z-index: 70;
+}
+
+.close {
+  color: var(--color-white);
+  width: 2.5em;
+  float: right;
+  margin-right: 1em;
+  margin-top: 2em;
+
+}
+
+.open-nav {
+    transform: translateX(0%);
+}
+
+/* .logos {
+    display: flex;
+    align-content: space-between;
+
+} */
+
+.gov-logo, .ogp-logo {
+    width: 2.8em;
+    margin-left: 0.5em;
+}
+.ogp-logo {
+    width: 7em;
+    margin-left: 0.5em;
+    height: 8em;
+}
+
+.hero .big-title {
+    /* color: rgba(185, 149, 29, 0.938); */
+    color: var(--color-white);
+    font-size: 1.5em;
+    /* margin-top: 3em; */
+    margin-left: 1em;
+}
+
+.hero {
+    margin-top: 0;
+    width: 100vw;
+    height: 15vh;
+
+    /* background: url(/images/dark-green-back.jpg); */
+}
+
+.small-title {
+    color: var(--color-white);
+    font-size: 0.9em;
+    margin-left: 2em;
+    /* margin-top: -0.5em; */;
+}
+
+
+.ogp-section{
+    background-color: var(--color-white);
+    height: 4em;
+
+}
+
+.ogp-section-title{
+    /* color: var(color-white); */
+    margin-left: 3.9em;
+    padding-top: 1em;
+    font-size: 1.4em;
+}
+
+.ogp-aim {
+    
+    text-align: center;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+
+
+
+/* desktop view */
+@media only screen and (min-width: 680px) {
+    
+    .nav {
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: 40vw;
+        height: auto;
+        background:  none;
+        margin-left: 30em;
+        border-left: 0;
+        margin-top: 3em;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav .close {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0em !important;
+        margin-left: 2em;
+        margin-right: 6em;
+        padding: 0em;
+       
+    }
+
+    ul li {
+        margin-left: 0 !important;
+        margin:0;
+        
+        color: var(--color-white);
+    }
+
+    a {
+        color: var(--color-white);
+        border: 0;
+        font-size: 0.9em;
+        white-space: nowrap;
+    }
+
+    a:hover {
+        /* background-color: var(--color-white); */
+        color: var(--secondary-color) !important;
+    }
+    .gov-logo{
+        width: 5em;
+        height: 5em;
+        margin-top: 1em;
+    }
+
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        width: 7em;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 1px;
+        text-decoration: none;
+        display: block;
+        text-align: center  ;
+      }
+      
+      .dropdown-content a:hover {
+          background-color: var(--primary-color)
+        }
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+    .ogp-logo {
+        width: 7em;
+        height: 3em;
+        margin-left: 0.5em;
+    }
+
+    header {
+        height: 4em;
+    }
+
+    .hero-div, .hero{
+        margin-left: 4em;
+    }
+
+    .hero-img{
+        height: 7em;
+    }
+    
+    .logos {
+        height: 5em;
+        margin-left: 67em;
+        /* margin-top: 2em; */
+    }
+
+    
+    .ogp-section {
+        height: auto;
+        background-color: rgba(0, 0, 0, 0);
+        /* margin-left: 3em; */
+    }
+    
+    .descriptions {
+        display: flex;
+        margin-left: 10em;
+        /* justify-content: space-between; */
+    }
+
+    .item-1, .item-2 {
+        border-radius: 5px;
+        width: 30vw;
+        border: 1px solid black;
+        background-color: var(--color-white);
+        
+    }
+
+    .item-1 {
+        margin-left: 5em;
+    }
+    .item-2 {
+        margin-left: 3em;
+    }
+
+
+    .ogp-section-title {
+        margin: 0;
+        text-align: center;
+        color: var(--primary-color);
+        /* margin-left: -2em; */
+    }
+    .ogp-aim{
+        
+        margin-left: 20em;
+        padding: 0 2em 2em 2em;
+    }
+
+    .action-plan {
+        
+        height: auto;
+        margin-left: 17em
+
+    }
+    
+    .action-plan-title {
+      margin-left: 10em;
+      margin-top: 3em;
+      color:var(--color-white);
+    }
+    .para ,.para2{
+        text-align: center;
+    }
+
+    .ogp-item {
+        
+        padding: 1em;
+    }
+
+    .gov-item {
+
+        padding: 1em;
+    }
+    
+    .action-plan-container {
+        display: flex;
+        width: 60vw;
+        justify-content: space-between;
+    }
+
+
+    .action-plan-item {
+        width: 19vw;
+        max-width: 20vw;
+        height: 10em;
+        background-color: var(--color-white);
+        
+    }
+
+    .action-plan-item h4, .action-plan-item p{
+        text-align: center;
+        padding: 0.5em
+    }
+
+    .second-line{
+        width: 40vw;
+        margin-left: 7em;
+        margin-top: 2em;
+    }
+    
+
+}
