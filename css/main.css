@@ -103,11 +103,11 @@ a:hover {
     /* width: 2.8em; */
     margin-left: 0.5em;
 }
-.ogp-logo {
+/* .ogp-logo {
     width: 7em;
     margin-left: 0.5em;
     height: 8em;
-}
+} */
 
 .hero .big-title {
     /* color: rgba(185, 149, 29, 0.938); */
@@ -210,9 +210,9 @@ a:hover {
         color: var(--secondary-color) !important;
     }
     .gov-logo{
-        width: 9em;
-        height: 9em;
-        margin-top: 1em;
+        width: 10em;
+        height: 10em;
+        margin-top: 3em;
     }
 
       .dropdown {
@@ -263,7 +263,7 @@ a:hover {
     }
 
     .hero-img{
-        height: 9em;
+        height: 14em;
 
     }
     
@@ -521,5 +521,15 @@ a:hover {
     }
 
     /* partners */
-    
+    .partners {
+        background-origin: var(--color-white);
+        height: auto;
+        margin-left: 19em;
+        justify-items: center;
+    }
+
+    .partner img {
+        height: 9em;
+        margin-bottom: 1em;
+    }   
 }
