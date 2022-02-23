@@ -9,7 +9,8 @@
 body{
     margin: 0;
     font-family: var(--secondary-font) ;
-    background: url(/images/dark-green-back.jpg);
+    background-image: url("../images/dark-green-back.jpg");
+    background-color: var(--primary-color);
     /* background: url(/images/riyom\ rocks_4x.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -360,6 +361,10 @@ a:hover {
         justify-content: space-between;
     }
 
+    .action-plan h3 {
+        color: var(--color-white);
+        margin-top: 2em;
+    }
 
     .action-plan-item {
         width: 19vw;
@@ -368,7 +373,15 @@ a:hover {
         background-color: var(--color-white);
         
     }
-
+    .fiscal {
+      
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .fiscal-item {
+        margin-top: 0;
+        padding-top: 0;
+    }
     .action-plan-item h4, .action-plan-item p{
         text-align: center;
         padding: 0.5em
@@ -376,8 +389,9 @@ a:hover {
 
     .second-line{
         width: 40vw;
-        margin-left: 7em;
+        margin-left: 8em;
         margin-top: 2em;
+        margin-bottom: 4em;
     }
     
     .rider {
