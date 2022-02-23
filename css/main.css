@@ -99,7 +99,7 @@ a:hover {
 } */
 
 .gov-logo, .ogp-logo {
-    width: 2.8em;
+    /* width: 2.8em; */
     margin-left: 0.5em;
 }
 .ogp-logo {
@@ -162,12 +162,12 @@ a:hover {
         transform: translateX(0);
         position: unset;
         display: block;
-        width: 40vw;
+        width: 8    0vw;
         height: auto;
         background:  none;
-        margin-left: 23em;
+        margin-left: 10em;
         border-left: 0;
-        margin-top: 0;
+        margin-top: 4em;
     }
 
     .menu {
@@ -180,10 +180,11 @@ a:hover {
 
     ul {
         display: flex;
-        justify-content: space-between;
+        
         margin-top: 0em !important;
-        margin-left: 2em;
-        margin-right: 6em;
+        /* margin-left: 2em; */
+        margin-left: auto;
+        /* margin-right: 6em; */
         padding: 0em;
        
     }
@@ -200,6 +201,7 @@ a:hover {
         border: 0;
         font-size: 0.9em;
         white-space: nowrap;
+        margin-left: 2em;
     }
 
     a:hover {
@@ -207,12 +209,11 @@ a:hover {
         color: var(--secondary-color) !important;
     }
     .gov-logo{
-        width: 7em;
-        height: 7em;
+        width: 9em;
+        height: 9em;
         margin-top: 1em;
     }
 
-      
       .dropdown {
         position: relative;
         display: inline-block;
@@ -225,11 +226,14 @@ a:hover {
         width: 7em;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
+
+    
       }
       
       .dropdown-content a {
         color: black;
-        padding: 12px 1px;
+        padding: 1em 0 1em 0 ;
+        margin: 0;
         text-decoration: none;
         display: block;
         text-align: center  ;
@@ -243,11 +247,11 @@ a:hover {
       
       /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
 
-    .ogp-logo {
-        width: 7em;
-        height: 3em;
+    /* .ogp-logo {
+        width: 9em;
+        height: 4em;
         margin-left: 0.5em;
-    }
+    } */
 
     header {
         height: 2em;
@@ -258,11 +262,12 @@ a:hover {
     }
 
     .hero-img{
-        height: 7em;
+        height: 9em;
+
     }
     
     .logos {
-        height: 5em;
+        height: 10em;
         margin-left: 67em;
         /* margin-top: 2em; */
     }
@@ -275,32 +280,43 @@ a:hover {
     }
     
     .descriptions {
+        margin-top: 4em;
         display: flex;
-        margin-left: 10em;
+        margin-left: 8em;
         /* justify-content: space-between; */
     }
 
     .item-1, .item-2 {
         border-radius: 5px;
         width: 35vw;
-        border: 1px solid black;
-        background-color: var(--color-white);
+        border: 1px solid rgb(2, 44, 5);
+        color: var(--color-white);
+        /* background-color: var(--color-white); */
         box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
         
     }
 
     .item-1 {
-        margin-left: 2em;
+        margin-left: 1em;
+        
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* filter: blur(2px); */
     }
     .item-2 {
-        margin-left: 1em;
+        margin-left: 9em;
+       
+
     }
+
+  
 
 
     .ogp-section-title {
         margin: 0;
         text-align: center;
-        color: var(--primary-color);
+        color: var(--color-white);
         /* margin-left: -2em; */
     }
     .ogp-aim{
@@ -317,7 +333,7 @@ a:hover {
     }
     
     .action-plan-title {
-      margin-left: 10em;
+     text-align: center;
       margin-top: 3em;
       color:var(--color-white);
     }
@@ -364,5 +380,47 @@ a:hover {
         margin-top: 2em;
     }
     
+    .rider {
+            margin-top: 4em;
+        
+            color: var(--color-white);
+            text-align: center;
+        }
+
+    .page-logos {
+        margin-top: 3em;
+        margin-left: 3em;
+    }
+
+    .page-logos .gov {
+       margin-left: 2em;
+        height: 7em;
+    }
+    .page-logos .local {
+        height: 7em;
+        
+    }
+
+    .divider {
+        width: 60vw;
+    }
+
+    .contact-head{
+        text-align: center;
+        color: var(--color-white);
+    }
+    .contact-us {
+        color: var(--color-white);
+        margin-left: 20em;
+        display: flex;
+        margin-bottom: 4em;
+    }
+    
+
+    .contact-2 {
+        margin-left: 4em;
+    }
+
+
 
 }
