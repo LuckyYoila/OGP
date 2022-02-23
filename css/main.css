@@ -390,7 +390,7 @@ a:hover {
     .second-line{
         width: 40vw;
         margin-left: 8em;
-        margin-top: 2em;
+        margin-top: 1.3em;
         margin-bottom: 4em;
     }
     
@@ -425,12 +425,12 @@ a:hover {
     }
     .contact-us {
         color: var(--color-white);
-        margin-left: 20em;
+        margin-left: 25em;
         display: flex;
         margin-bottom: 4em;
+        align-content: center;
     }
     
-
     .contact-phone, .contact-mail {
        margin: unset;
        padding: 0;
@@ -440,6 +440,69 @@ a:hover {
         margin-left: 4em;
     }
 
+
+    /* milestones */
+    .milestones-body {
+        background-color: var(--color-white);
+        height: auto;
+        width: 90vw;
+        margin-left: 3em;
+        margin-bottom: 3em;
+        padding-bottom: 2em;
+    }
+    .commitment {
+        margin-left: 2em;
+    }
+
+    .commitment ul{
+        margin-left: 2em;
+        display: block;
+        color: #031a0f;
+        
+    }
+
+    .commitment ul li {
+        color: black;
+        font-family: var(--secondary-font);
+        margin-bottom: 0.3em;
+    }
+
+    .progress-keys {
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+        margin-left: 22em;
+    }
+
+    .completed-tag {
+        background-color: rgb(8, 214, 8);
+        padding: 1em;
+    }
+    .ongoing-tag {
+        background-color: orange;
+        padding: 1em;
+    }
+
+    .not-started-tag {
+        background-color: red;
+        padding: 1em;
+    }
+
+    .completed-item{
+        background-color: rgb(8, 214, 8);
+        padding-left: 1em;
+
+    }
+
+    .ongoing-item {
+        background-color: orange;
+        padding-left: 1em;
+
+    }
+    .not-started-item {
+        background-color: red;
+        padding-left: 1em;
+    }
 
 
 }
