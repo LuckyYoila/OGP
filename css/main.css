@@ -430,8 +430,10 @@ a:hover {
         margin-bottom: 4em;
     }
     
-    .contact-1, .contact-head {
-        text-align: center;
+
+    .contact-phone, .contact-mail {
+       margin: unset;
+       padding: 0;
     }
 
     .contact-2 {
