@@ -416,6 +416,9 @@ a:hover {
         margin-bottom: 4em;
     }
     
+    .contact-1, .contact-head {
+        text-align: center;
+    }
 
     .contact-2 {
         margin-left: 4em;
