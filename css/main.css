@@ -193,7 +193,7 @@ a:hover {
     ul li {
         margin-left: 0 !important;
         margin:0;
-        
+        /* border-bottom: 1px solid white; */
         color: var(--color-white);
     }
 
@@ -203,11 +203,19 @@ a:hover {
         font-size: 0.9em;
         white-space: nowrap;
         margin-left: 2em;
+        /* border-left: 1px solid white; */
+        color: burlywood
+        /* border-bottom: 1px solid white; */
     }
 
     a:hover {
         /* background-color: var(--color-white); */
         color: var(--secondary-color) !important;
+    }
+    .current-tab {
+        color: var(--secondary-color) !important;
+        text-decoration: underline;
+
     }
     .gov-logo{
         width: 10em;
@@ -443,7 +451,7 @@ a:hover {
 
     /* milestones */
     .milestones-body {
-        background-color: var(--color-white);
+       
         height: auto;
         width: 90vw;
         margin-left: 3em;
@@ -524,12 +532,70 @@ a:hover {
     .partners {
         background-origin: var(--color-white);
         height: auto;
-        margin-left: 19em;
+        margin-left: 10em;
         justify-items: center;
     }
 
     .partner img {
         height: 9em;
         margin-bottom: 1em;
-    }   
+    }  
+
+    .crudan-logo img{
+        height: 20em;
+        width: 21em;
+        float: right;
+        margin-right: 11em;
+        margin-top: -10em;
+    }
+    .giz-logo img { 
+        height: 17em;
+        margin-left: 25em;
+    }
+
+    .budgit-logo img {
+        float: right;
+        margin-right: 18em;
+        margin-top: -3em;
+
+    }
+    
+    .dev-getway-logo img {
+        float: right;
+        margin: 3em;
+    }
+
+    .center-lsd-logo {
+        margin-top: -6em;
+        margin-right: 9em;
+    }
+        /* milestones pagination */
+    .pagination {
+        display: inline-block;
+        margin-left: 30em;
+       
+      }
+      
+      .pagination a {
+        display: unset;
+        width: unset;
+        margin: unset;
+        color: unset;
+        color: var(--color-white);
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        margin-bottom: 5em;
+        
+      }
+      
+      .pagination a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .pagination a:hover:not(.active) {
+          background-color: #ddd;
+        }
 }
