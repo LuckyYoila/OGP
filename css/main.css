@@ -458,21 +458,32 @@ a:hover {
         margin-bottom: 3em;
         padding-bottom: 2em;
     }
-    .commitment {
-        margin-left: 2em;
-    }
 
-    .commitment ul{
-        margin-left: 2em;
-        display: block;
-        color: #031a0f;
+    .commitment-heading{
+        margin-left: 10em;
+        margin-top: 3em;
+        color: #FFFFF0;
+    }
+    .table {
+        border-collapse: collapse;
+        margin-left: 14em;
+        margin-bottom: 2em;
+        color: var(--color-white);
+        width: 60vw;
+        /* border: 1px solid white; */
+        padding: 3em;
         
     }
 
-    .commitment ul li {
-        color: black;
-        font-family: var(--secondary-font);
-        margin-bottom: 0.3em;
+   .table tr{   
+       height: 1em;
+       border-bottom: 1px solid white;
+       padding: 9em;
+      
+    }
+
+    .table tr td {
+        padding: 1em;
     }
 
     .progress-keys {
@@ -572,7 +583,8 @@ a:hover {
         /* milestones pagination */
     .pagination {
         display: inline-block;
-        margin-left: 30em;
+        margin-left: 34em;
+        margin-top: -4.8em;
        
       }
       
