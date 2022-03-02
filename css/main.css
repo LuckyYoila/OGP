@@ -193,12 +193,12 @@ a:hover {
         margin: unset;
         color: var(--color-white);
         margin-left: 3vw;
+        /* border: 1px solid green; */
     }
 
 
     a {
         color: var(--color-white);
-        border: 0;
         font-size: 0.9em;
         white-space: nowrap;
         padding: 0;
@@ -210,6 +210,7 @@ a:hover {
     }
     .current-tab {
         color: var(--secondary-color) !important;
+        padding-bottom: 1em;
         border-bottom: 1px solid green;
     
 
@@ -360,13 +361,15 @@ a:hover {
         justify-content: space-between;
     }
 
-    .thematic-area .preamble {
+    /* .thematic-area .preamble {
         color: var(--color-white);
         margin-top: 2em;
-    }
+        text-align: center;
+    } */
 
     .thematic-area-item {
         width: 29vw;
+        background-color: #031a0f83;
         max-width: 29vw;
         min-height: 15em;
         border: 1px solid rgb(2, 44, 5);
@@ -407,7 +410,7 @@ a:hover {
         }
 
         
-
+        /* contact area */
     .divider {
         width: 60vw;
     }
@@ -569,7 +572,7 @@ a:hover {
         /* milestones pagination */
     .pagination {
         display: inline-block;
-        margin-left: 34em;
+        margin-left: 45vw;
         margin-top: -4.8em;
        
       }
