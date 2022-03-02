@@ -212,8 +212,11 @@ a:hover {
         color: var(--secondary-color) !important;
         padding-bottom: 1em;
         border-bottom: 1px solid green;
-    
+    }
 
+    .current-tab-caret i {
+        color: unset !important;
+        color: green !important ;
     }
     .gov-logo{
         width: 10em;
