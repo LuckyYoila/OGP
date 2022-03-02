@@ -44,7 +44,9 @@
 
             </li>
             <li class="dropdown">
-                <a class="drop-parent">Activities</a>
+                <div class="dropdown-icon">
+                    <a class="drop-parent">Activities</a><span><i class="fa fa-caret-down"></i></span>
+                </div>
                 <div class="dropdown-content">
                     <a href="events.html">Events</a>
                     <a href="milestones.html">Milestones</a>
@@ -66,6 +68,190 @@
 
         
     </nav>
-    <h1 class="action-plan-title">Join Us</h1>
+    <h1 class="thematic-area-title">Join Us</h1>
+
+    <div class="join-us-form">
+        <form action="">
+            <label for="full-name">Full Name</label>
+            <br>
+            <input 
+            class="input"
+            type="text" 
+            id="full-name" 
+            name="full-name" 
+            placeholder="Your full name" 
+            required
+            >
+            
+            <br>
+            <label for="email">Email Address</label>
+            <br>
+            <input 
+            class="input"
+            type="text" 
+            id="email" 
+            name="email" 
+            placeholder="Your email address" 
+            required
+            >
+
+            <br>   
+            <label for="phone">Phone</label>
+            <br>
+            <input 
+            class="input"
+            type="text" 
+            name="phone" 
+            id="phone"
+            placeholder="Your phone number"
+            >
+
+            <br>
+            <label for="age">Age</label>
+            <br>
+            <select name="age" id="age" required placeholder="select age">
+                <option value="">18-25</option>
+                <option value="">26-35</option>
+                <option value="">36-45</option>
+                <option value="">46-55</option>
+                <option value="">56-65</option>
+                <option value="">65 and higher</option>
+
+            </select>
+
+            <br>
+
+            <label for="state-of-origin">State of Origin</label>
+            <br>
+            <input 
+            class="input"
+            type="text" 
+            name="state-of-origin" 
+            id="state-of-origin"
+            placeholder="Your State of Origin"
+            >
+
+            <br>
+            <label for="LGA">LGA</label>
+            <br>
+            <input 
+            class="input"
+            type="text" 
+            name="lga" 
+            id="lga"
+            placeholder="Your LGA"
+            required
+            >
+
+            <br>
+            Professional Background
+            <label for="work-address">Work Address</label>
+            <br>
+            <input 
+            class="input"
+            type="text" 
+            name="work-address" 
+            id="work-address" 
+            placeholder="Your work address"
+            required
+            >
+
+            <br>
+
+            <label for="work-role">What is your role at work?</label>
+            <br>
+            <input 
+            class="input"
+            type="text" 
+            name="work-role" 
+            id="work-role" 
+            placeholder="Your work role" 
+            required>
+
+            <br>
+
+            <label for="sector">What sector do you work in?</label>
+            <div id="sector">   
+                <input type="radio" name="sector" value="Civil Society">Civil Society <br>
+                <input type="radio" name="sector" value="Private Sector">Private Sector <br>
+                <input type="radio" name="sector" value="Public Sector">Public Sector <br>
+                <input type="radio" name="sector" value="Academia"> Academia <br>
+                <input type="radio" name="sector" value="Media and Journalism"> Media and Journalism <br>
+                <input type="radio" name="sector" value="other"> other
+                
+            </div>
+
+            <label for="community">In which communities do you engage in most frequently and why?</label>
+            <br>
+            <textarea 
+            name="community" 
+            id="community" 
+            ></textarea>
+            <br>
+
+            <label for="examples">Please give 1-2 examples of impactful work/initiative/Intervention/project/ etc that you have accomplished recently in the course of executing your work</label>
+            <br>
+            <textarea 
+            name="examples" 
+            id="examples" 
+            ></textarea>
+
+            <br>
+            <label for="key-learnings">What were the key learnings from accomplishing the worik highlighted above</label>
+            <br>
+            <textarea 
+            name="key-learnings" 
+            id="key-learnings" 
+            ></textarea>
+
+            <br>
+
+            <h2>Statement of Interest</h2>
+            <label for="strengths">Of the 5 OGP commitment themes which one(s) speaks to your strenghts specifically</label>
+            <div id="strengths">
+                <input type="checkbox" name="" value="Citizens Engagement">Citizens Engagement<br> 
+                <input type="checkbox" name="sector" value="Fiscal Transparency">Fiscal Transparency <br>
+                <input type="checkbox" name="sector" value="Gender">Gender <br>
+                <input type="checkbox" name="sector" value="Open Contracting">Open Contracting <br>
+                <input type="checkbox" name="sector" value="Peace and Security">Peace and Security <br>
+            </div>
+
+            <br>
+            <p>What contributions can you make to advancing any one of these thematic areas and how will your go about doing it?</p>
+            <textarea 
+            name="contributions" 
+            id="contributions"
+            ></textarea>
+
+            <br>
+            <p>In your experience what strategic steps need to be taken to improve on these thematic areas?</p>
+            <textarea 
+            name="strategic-steps" 
+            ></textarea>
+
+            <br>
+            <p>What resources (technical or otherwise) do you aim to contribute to the implementation of OGP in Plateau State?</p>
+            <textarea 
+            name="resources" 
+            ></textarea>
+
+
+            <br>
+            <h2>Comments and Notes</h2>
+            <small>This section is optional, but if you do have any thoughts, comments, observations or things you would like to include as background or additional context to your submission, please do so in the box below:</small>
+            <br>
+            Note: these thoughts can include specific system reform challenges that you have experienced or would like to see addressed.
+            <br>
+            <textarea 
+            name="comments" 
+            ></textarea>
+
+            <br>
+            <input 
+            type="submit" 
+            value="Submit">
+
+        </form>
+    </div>
 </body>
 </html>

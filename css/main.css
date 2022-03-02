@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 
 :root {
     --primary-color: #031a0f;
@@ -214,7 +216,7 @@ a:hover {
     }
     .current-tab {
         color: var(--secondary-color) !important;
-        text-decoration: underline;
+    
 
     }
     .gov-logo{
@@ -243,8 +245,6 @@ a:hover {
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
 
-
-    
       }
       
       .dropdown-content a {
@@ -618,4 +618,22 @@ a:hover {
       .pagination a:hover:not(.active) {
           background-color: #ddd;
         }
-}
+
+    /* join us */
+    .join-us-form {
+        margin-left: 20vw;
+        color: var(--color-white);
+       width: 50vw;
+    }
+
+    .join-us-form label{
+        color: var(--color-white);
+    }
+    .input {
+        width: 22em;
+        height: 2.5em;
+        margin-bottom: 1em;
+    }
+
+    
+}   
