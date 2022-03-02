@@ -330,7 +330,7 @@ a:hover {
     .thematic-area{
         
         height: auto;
-        margin-left: 14em
+        margin-left: 5vw
 
     }
     
@@ -356,21 +356,27 @@ a:hover {
     
     .thematic-area-container {
         display: flex;
-        width: 70vw;
+        width: 90vw;
         justify-content: space-between;
     }
 
-    .thematic-area h3 {
+    .thematic-area .preamble {
         color: var(--color-white);
         margin-top: 2em;
     }
 
     .thematic-area-item {
-        width: 22vw;
-        max-width: 20vw;
-        height: 10em;
-        background-color: var(--color-white);
+        width: 29vw;
+        max-width: 29vw;
+        min-height: 15em;
+        border: 1px solid rgb(2, 44, 5);
+        color: var(--color-white);
+        box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
         
+    }
+
+    .thematic-area-item b {
+        color: burlywood;
     }
     .fiscal {
       
@@ -387,9 +393,9 @@ a:hover {
     }
 
     .second-line{
-        width: 44vw;
-        margin-left: 8em;
-        margin-top: 4em;
+        width: 60vw;
+        margin-left: 15vw;
+        margin-top: 2em;
         margin-bottom: 4em;
     }
     
@@ -400,19 +406,7 @@ a:hover {
         text-align: center;
         }
 
-    .page-logos {
-        margin-top: 3em;
-        margin-left: 3em;
-    }
-
-    .page-logos .gov {
-       margin-left: 2em;
-        height: 11em;
-    }
-    .page-logos .local {
-        height: 12em;
         
-    }
 
     .divider {
         width: 60vw;
