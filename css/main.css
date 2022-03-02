@@ -536,41 +536,44 @@ a:hover {
         background-origin: var(--color-white);
         height: auto;
         margin-left: 10em;
-        justify-items: center;
+        margin-bottom: 3em;
+    
     }
 
-    .partner img {
-        height: 9em;
-        margin-bottom: 1em;
-    }  
+    .tearfund-logo {
+        margin-left: 20vw;
+    }
+
 
     .crudan-logo img{
-        height: 20em;
-        width: 21em;
-        float: right;
-        margin-right: 11em;
-        margin-top: -10em;
+        height: 10em;
+        margin-left: 60vw;
+    
     }
     .giz-logo img { 
-        height: 17em;
-        margin-left: 25em;
+        height: 9em;
+       
     }
 
     .budgit-logo img {
-        float: right;
-        margin-right: 18em;
-        margin-top: -3em;
+        height: 6em;
+        margin-top: 2em;
+        margin-left: 53vw;
+    
 
     }
     
-    .dev-getway-logo img {
-        float: right;
-        margin: 3em;
+    .dev-gateway-logo img {
+        height: 10em;
+        margin-left: 8vw;
+
     }
 
-    .center-lsd-logo {
-        margin-top: -6em;
-        margin-right: 9em;
+    .center-lsd-logo img {
+        height: 9em;
+        margin-left: 28vw;
+        margin-top: -10em   ;
+
     }
         /* milestones pagination */
     .pagination {
