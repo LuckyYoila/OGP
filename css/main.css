@@ -168,7 +168,7 @@ a:hover {
         width: 80vw;
         height: auto;
         background:  none;
-        margin-left: 10em;
+        margin-left: 7vw;
         border-left: 0;
         margin-top: 4em;
     }
@@ -192,12 +192,9 @@ a:hover {
     ul li {
         margin: unset;
         color: var(--color-white);
-        margin-left: 3em;
+        margin-left: 3vw;
     }
 
-    ul li:hover{
-        color: var(--secondary-color);
-    }
 
     a {
         color: var(--color-white);
@@ -272,7 +269,7 @@ a:hover {
     }
 
     .hero-div, .hero{
-        margin-left: 10em;
+        margin-left: 10vw;
     }
 
     .hero-img{
@@ -282,7 +279,7 @@ a:hover {
     
     .logos {
         height: 10em;
-        margin-left: 67em;
+        margin-left: 67vw;
     }
 
     
