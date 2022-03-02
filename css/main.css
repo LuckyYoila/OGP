@@ -165,7 +165,7 @@ a:hover {
         transform: translateX(0);
         position: unset;
         display: block;
-        width: 8    0vw;
+        width: 80vw;
         height: auto;
         background:  none;
         margin-left: 10em;
@@ -182,21 +182,21 @@ a:hover {
     }
 
     ul {
-        display: flex;
-        
+        display: flex; 
         margin-top: 0em !important;
-        /* margin-left: 2em; */
         margin-left: auto;
-        /* margin-right: 6em; */
         padding: 0em;
        
     }
 
     ul li {
-        margin-left: 0 !important;
-        margin:0;
-        /* border-bottom: 1px solid white; */
+        margin: unset;
         color: var(--color-white);
+        margin-left: 3em;
+    }
+
+    ul li:hover{
+        color: var(--secondary-color);
     }
 
     a {
@@ -204,18 +204,16 @@ a:hover {
         border: 0;
         font-size: 0.9em;
         white-space: nowrap;
-        margin-left: 2em;
-        /* border-left: 1px solid white; */
-        color: burlywood
-        /* border-bottom: 1px solid white; */
+        padding: 0;
+        color: burlywood;
     }
 
     a:hover {
-        /* background-color: var(--color-white); */
         color: var(--secondary-color) !important;
     }
     .current-tab {
         color: var(--secondary-color) !important;
+        border-bottom: 1px solid green;
     
 
     }
@@ -234,7 +232,11 @@ a:hover {
       }
       
       .dropdown-icon i {
-          padding-top: 0.7em;
+          display: unset;
+          padding: unset;
+          padding-left: 0.8em;
+          /* padding-bottom: 1em; */
+          width: 3em;
           color: burlywood;
       }
       .dropdown-content {
@@ -260,15 +262,10 @@ a:hover {
           background-color: var(--primary-color)
         }
       
-      .dropdown:hover .dropdown-content {display: block;}
+      .dropdown:hover .dropdown-content {
+          display: block;
+        }
       
-      /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
-
-    /* .ogp-logo {
-        width: 9em;
-        height: 4em;
-        margin-left: 0.5em;
-    } */
 
     header {
         height: 2em;
@@ -286,21 +283,18 @@ a:hover {
     .logos {
         height: 10em;
         margin-left: 67em;
-        /* margin-top: 2em; */
     }
 
     
     .ogp-section {
         height: auto;
         background-color: rgba(0, 0, 0, 0);
-        /* margin-left: 3em; */
     }
     
     .descriptions {
         margin-top: 4em;
         display: flex;
         margin-left: 8em;
-        /* justify-content: space-between; */
     }
 
     .item-1, .item-2 {
@@ -308,7 +302,6 @@ a:hover {
         width: 35vw;
         border: 1px solid rgb(2, 44, 5);
         color: var(--color-white);
-        /* background-color: var(--color-white); */
         box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
         
     }
@@ -319,7 +312,6 @@ a:hover {
         
         background-repeat: no-repeat;
         background-size: cover;
-        /* filter: blur(2px); */
     }
     .item-2 {
         margin-left: 9em;
@@ -327,14 +319,10 @@ a:hover {
 
     }
 
-  
-
-
     .ogp-section-title {
         margin: 0;
         text-align: center;
         color: var(--color-white);
-        /* margin-left: -2em; */
     }
     .ogp-aim{
         
@@ -362,12 +350,10 @@ a:hover {
     }
 
     .ogp-item {
-        
         padding: 1em;
     }
 
     .gov-item {
-
         padding: 1em;
     }
     
@@ -411,10 +397,10 @@ a:hover {
     }
     
     .rider {
-            margin-top: 4em;
-        
-            color: var(--color-white);
-            text-align: center;
+        margin-top: 4em;
+    
+        color: var(--color-white);
+        text-align: center;
         }
 
     .page-logos {
@@ -478,7 +464,6 @@ a:hover {
         margin-bottom: 2em;
         color: var(--color-white);
         width: 60vw;
-        /* border: 1px solid white; */
         padding: 3em;
         
     }
@@ -501,6 +486,7 @@ a:hover {
         margin-left: 22em;
     }
 
+
     .completed-tag {
         background-color: rgb(8, 214, 8);
         padding: 1em;
@@ -517,18 +503,17 @@ a:hover {
 
     .completed-item{
         background-color: rgb(8, 214, 8);
-        padding-left: 1em;
+        width: 1em;
 
     }
 
     .ongoing-item {
         background-color: orange;
-        padding-left: 1em;
 
     }
     .not-started-item {
-        background-color: red;
-        padding-left: 1em;
+        background-color: red;           
+
     }
 
     /* steering committee */
@@ -540,7 +525,6 @@ a:hover {
         padding-top: 2em;
         padding-bottom: 2em;
         width: 70vw;
-
         
     }
     .sc-member{
@@ -621,7 +605,7 @@ a:hover {
 
     /* join us */
     .join-us-form {
-        margin-left: 20vw;
+        margin-left: 30vw;
         color: var(--color-white);
        width: 50vw;
     }
@@ -630,9 +614,12 @@ a:hover {
         color: var(--color-white);
     }
     .input {
-        width: 22em;
+        width: 30vw;
         height: 2.5em;
         margin-bottom: 1em;
+        background-color: #FFFFF0;
+        padding-left: 1em;
+        border: none;
     }
 
     
