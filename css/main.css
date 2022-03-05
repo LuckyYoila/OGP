@@ -206,10 +206,10 @@ a:hover {
     }
 
     a:hover {
-        color: var(--secondary-color) !important;
+        color: green !important;
     }
     .current-tab {
-        color: var(--secondary-color) !important;
+        color: green !important;
         padding-bottom: 1em;
         border-bottom: 1px solid green;
     }
@@ -625,6 +625,52 @@ a:hover {
         padding-left: 1em;
         border: none;
     }
+
+    /* events */
+    .events {
+        margin-bottom: 3em;
+        width: 100vw;
+        color: var(--color-white)
+    }
+    .event{
+        margin-left: 8vw;
+        margin-right: 8vw;
+        display: flex;
+        width: auto;
+        margin-top: 3em;
+        justify-content: space-between;
+    }
+    .event_item {
+        
+        width: auto;
+        height: auto;
+        border: 1px solid rgb(2, 44, 5);
+        color: var(--color-white);
+        box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .event_pic {
+        width: 40vw;
+        height: 60vh;
+    }
+
+    .event_item p {
+        width: 40vw;
+        text-align: center;
+       
+    }
+    .awards {
+    
+        margin-left: 20vw;
+    }
+    .award1 {
+        width: 50vw;
+        height: 60vh;
+    }
+    /* .award2 {
+        width: 39vw;
+        height: 50;
+    } */
 
     
 }   
