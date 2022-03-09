@@ -104,6 +104,7 @@ a:hover {
 .gov-logo, .ogp-logo {
     /* width: 2.8em; */
     margin-left: 0.5em;
+
 }
 /* .ogp-logo {
     width: 7em;
@@ -283,7 +284,7 @@ a:hover {
     
     .logos {
         height: 10em;
-        margin-left: 67vw;
+        margin-left: 73vw;
     }
 
     
@@ -484,6 +485,7 @@ a:hover {
         margin-left: 22em;
     }
 
+    
 
     .completed-tag {
         background-color: rgb(8, 214, 8);
@@ -513,23 +515,35 @@ a:hover {
         background-color: red;           
 
     }
+    .progress-col {
+        width: fit-content;
+    }
+
+    .fill {
+        width: 50vw;
+    }
 
     /* steering committee */
-    .steering-committee-members {
-        height: auto;
-        margin-left: 12em;
+    .steering-committee-table {
+        border-collapse: collapse;
+        margin-left: 14em;
+        margin-top: 3em;
         margin-bottom: 3em;
-        padding-top: 2em;
-        padding-bottom: 2em;
-        width: 70vw;
-        border: 1px solid rgb(2, 44, 5);
         color: var(--color-white);
-        box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-        
+        width: 60vw;
+        padding: 3em;
         
     }
-    .sc-member{
-        text-align: center;
+
+   .steering-committee-table tr{   
+       height: 1em;
+       border-bottom: 1px solid white;
+       padding: 9em;
+      
+    }
+
+    .steering-committee-table tr td {
+        padding: 1em;
     }
 
     /* partners */
@@ -672,5 +686,27 @@ a:hover {
         height: 50;
     } */
 
+
+
+
+    /* Join us */
+    .join-pre {
+        color: white;
+    }
+
+    .join_us {
+        padding: 2em;
+        background-color: #031a0f;
+        border: 1px solid var(--secondary-color);
+        width:fit-content;
+        margin-left: 15vw;
+    }
+    
+    .join-area {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 30vw;
+        align-content: center
+    }
     
 }   
