@@ -4,7 +4,7 @@
 :root {
     --primary-color: #031a0f;
     --secondary-color: #0f722d;
-    --color-white: #FFFFF0;
+    --color-white: #f5f5b8;
     --secondary-font:  Arial, Helvetica, sans-serif;
     --primary-font: 'poppins', sans-serif;
 }
@@ -169,7 +169,7 @@ a:hover {
         width: 80vw;
         height: auto;
         background:  none;
-        margin-left: 7vw;
+        margin-left: 8vw;
         border-left: 0;
         margin-top: 4em;
     }
@@ -193,7 +193,7 @@ a:hover {
     ul li {
         margin: unset;
         color: var(--color-white);
-        margin-left: 3vw;
+        margin-left: 4vw;
         /* border: 1px solid green; */
     }
 
@@ -274,7 +274,7 @@ a:hover {
     }
 
     .hero-div, .hero{
-        margin-left: 10vw;
+        margin-left: 13vw;
     }
 
     .hero-img{
@@ -330,6 +330,77 @@ a:hover {
         
         margin-left: 20em;
         padding: 0 2em 2em 2em;
+    }
+
+    /* thematic areas */
+
+    .ta-main-area {
+        margin-bottom: 9em;
+        margin-top: 4em;
+        display: flex ;
+        
+    }
+
+    .thematic-area-nav{
+       
+        margin-left: 13vw;
+        height: auto;
+        background: var(--primary-color);
+        border-right: 2px var(--color-white) solid;
+        width: fit-content;
+        text-transform: uppercase;
+    }
+    
+    .thematic-area-nav ul {
+        display: block ;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 1em;
+
+    }
+
+    .thematic-area-nav ul li {
+        margin: 0;
+        margin-top: 2em;
+    }
+
+
+    .thematic-area-nav ul li a {
+        
+        color: var(--color-white);
+        padding: .75em ;
+        width: 100%;
+        font-weight: bold;
+        text-decoration: none;
+    
+    }
+
+    .ta-display-area{
+        border: 1px solid green;
+        /* min-width: fit-content; */
+        width: 52vw;
+        margin-left: 5vw;
+
+    }
+   
+    .ta-picture {
+        width: auto;
+        max-height: 27em;
+    }
+
+    .ta-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+
+        padding: 20px;
+        text-align: center;
     }
 
     .thematic-area{
